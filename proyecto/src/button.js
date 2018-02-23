@@ -10,7 +10,7 @@ class button extends Component{
 
 		return(
 			<button onClick={this.saludar}>
-				Click me
+				Añadir a Mi Lista
 			</button>
 			
 		)

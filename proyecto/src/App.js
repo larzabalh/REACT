@@ -6,7 +6,15 @@ import Componente from './componente.js';
 import Frutas from './frutas.js';
 import Nuevasfrutas from './nuevasfrutas.js';
 import Button from './button.js';
+import Image from './image.js';
 import EjercicioArray from './ejercicioArray.js';
+import './axios.js';
+import './itemSection.js';
+import ItemSection from './itemSection';
+import ListadoDeNotas from './listadoDeNotas.js';
+
+
+
 
 var ejercicio = new EjercicioArray()
 var products = ejercicio.productos
@@ -79,10 +87,18 @@ class App extends Component {
         <p className="App-intro">
           {estadoDelCurso(hernan)}
         </p>
+      
+
         <Componente/>
         <Frutas/>
         <Nuevasfrutas/>
         <Button/>
+        <Image/>
+      
+        <ItemSection/>
+        <ListadoDeNotas/>
+        
+
       </div>
     );
   }
