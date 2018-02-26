@@ -6,12 +6,14 @@ import Componente from './componente.js';
 import Frutas from './frutas.js';
 import Nuevasfrutas from './nuevasfrutas.js';
 import Button from './button.js';
-import Image from './image.js';
 import EjercicioArray from './ejercicioArray.js';
 import './axios.js';
 import './itemSection.js';
 import ItemSection from './itemSection';
 import ListadoDeNotas from './listadoDeNotas.js';
+import MovieBox from './MovieBox.js';
+import SearchBox from './SearchBox.js';
+import ViewedItems from './ViewedItems.js';
 
 
 
@@ -93,11 +95,13 @@ class App extends Component {
         <Frutas/>
         <Nuevasfrutas/>
         <Button/>
-        <Image/>
+        
       
         <ItemSection/>
         <ListadoDeNotas/>
-        
+        <MovieBox/>
+        <SearchBox/>
+        <ViewedItems/>        
 
       </div>
     );

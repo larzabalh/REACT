@@ -9,7 +9,7 @@ class button extends Component{
 	render(){
 
 		return(
-			<button onClick={this.saludar}>
+			<button className="btn btn-primary" onClick={this.saludar}>
 				Añadir a Mi Lista
 			</button>
 			

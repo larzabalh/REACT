@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class image extends Component{
+class Image extends Component{
 
 
 
@@ -10,7 +10,7 @@ class image extends Component{
 			
 			<div>
 
-			<img src="http://www.cienic.com/wp-content/uploads/2015/07/curiosidades-del-mundo-01-696x464.jpg"/>
+			<img src={this.props.src} height="100%" width="100%"/>
 
 			</div>
 
@@ -19,4 +19,4 @@ class image extends Component{
 	}
 }
 
-export default image;
+export default Image;
