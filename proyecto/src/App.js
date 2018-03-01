@@ -14,6 +14,9 @@ import ListadoDeNotas from './listadoDeNotas.js';
 import MovieBox from './MovieBox.js';
 import SearchBox from './SearchBox.js';
 import ViewedItems from './ViewedItems.js';
+import Like from './like.js';
+import MyPokemons from './MyPokemons.js';
+
 
 
 
@@ -101,7 +104,10 @@ class App extends Component {
         <ListadoDeNotas/>
         <MovieBox/>
         <SearchBox/>
-        <ViewedItems/>        
+        <ViewedItems/>
+        <Like defaultValue="false"/>
+        <MyPokemons/>
+
 
       </div>
     );
