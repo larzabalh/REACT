@@ -16,6 +16,8 @@ import SearchBox from './SearchBox.js';
 import ViewedItems from './ViewedItems.js';
 import Like from './like.js';
 import MyPokemons from './MyPokemons.js';
+import Alert from './Alert';
+import MyAlerts from './MyAlerts';
 
 
 
@@ -108,7 +110,7 @@ class App extends Component {
         <Like defaultValue="false"/>
         <MyPokemons/>
 
-
+        <MyAlerts/>
       </div>
     );
   }
